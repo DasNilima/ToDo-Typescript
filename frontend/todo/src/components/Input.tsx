@@ -45,7 +45,7 @@ export const Input = (props: any)=>{
         <Collapse in={isToggled}>
             <div>
             <label>Task : 👉 </label>
-            <input className="inner" type="text" maxLength="31" size="28" value={item} placeholder="Enter your item here" onChange={handleItemChange}></input>
+            <input className="inner" type="text" maxLength={32} size={28} value={item} placeholder="Enter your item here" onChange={handleItemChange}></input>
             </div>5
             <br></br>
             <div>
