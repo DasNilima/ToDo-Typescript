@@ -18,7 +18,7 @@ app.use(cors({ origin: true, credentials: true }));
 //Routes
 app.get('/', (req, res) => res.send("Hello from server"))
 const router = require('./routes/item-route-controller')
-app.use('/todos', router);
+app.use('/', router);
 
 
 //Errors

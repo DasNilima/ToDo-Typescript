@@ -22,9 +22,6 @@ Mern-Todo is a quick on the go checklist application that allows a user to quick
 [![Heroku][HeroKU]][Heroku-url]
 
 
-## Live demo link
-
-[Mern-Todo](https://phonynotes.herokuapp.com)
 
 ## How to use this app locally?
 
